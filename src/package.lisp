@@ -6,14 +6,12 @@
 (defpackage :strings
  (:use :cl :lists)
  (:export
-  :sub-string
   :take
   :drop
   :split-by
   :trim
   :trim-left
   :trim-right
-  :merge-comparison-words
 
   :string->atonic 
   :char-list-p
